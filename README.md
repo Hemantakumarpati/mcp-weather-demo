@@ -33,7 +33,7 @@ The client launcher script starts the server as a subprocess and communicates wi
 python src/mcp_client.py
 
 # Or pass a city argument
-python src/mcp_client.py "Paris"
+python src/mcp_client.py "Pune"
 ```
 
 Output should look like:
@@ -41,6 +41,6 @@ Output should look like:
 Connected to server.
 Available tools: ['get_weather']
 
-Calling get_weather for 'Paris'...
-Result: Weather in Paris, France: 15°C, Wind: 10 km/h
+Calling get_weather for 'Pune'...
+Result: Weather in Pune: 15°C, Wind: 10 km/h
 ```
